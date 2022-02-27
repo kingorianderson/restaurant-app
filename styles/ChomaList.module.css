@@ -11,6 +11,10 @@
   width: 70%;
 }
 
+.title {
+  color: #aa3c3b;
+}
+
 .wrapper {
   width: 100%;
   display: flex;
