@@ -4,9 +4,9 @@ import { useState } from "react";
 
 const Product = () => {
   const [size, setSize] = useState(0);
-  const nyamachomasukumawikiugaliandkachumbari = {
+  const cake = {
     id: 1,
-    img: "/img/nyamachomasukumawikiugaliandkachumbari.png",
+    img: "/img/cake.png",
     name: "NYAMA CHOMA UGALI",
     price: [250, 450, 700],
     desc: " Nyama choma, sukuma wiki, ugali and kachumbari.",
@@ -16,13 +16,13 @@ const Product = () => {
     <div className={styles.container}>
       <div className={styles.left}>
         <div className={styles.imgContainer}>
-          <Image src={nyamachomasukumawikiugaliandkachumbari.img} objectFit="contain" layout="fill" alt="" />
+          <Image src={cake.img} objectFit="contain" layout="fill" alt="" />
         </div>
       </div>
       <div className={styles.right}>
-        <h1 className={styles.title}>{nyamachomasukumawikiugaliandkachumbari.name}</h1>
-        <span className={styles.price}>KSh{nyamachomasukumawikiugaliandkachumbari.price[size]}</span>
-        <p className={styles.desc}>{nyamachomasukumawikiugaliandkachumbari.desc}</p>
+        <h1 className={styles.title}>{cake.name}</h1>
+        <span className={styles.price}>KSh{cake.price[size]}</span>
+        <p className={styles.desc}>{cake.desc}</p>
         <h3 className={styles.choose}>Choose the size</h3>
         <div className={styles.sizes}>
           <div className={styles.size} onClick={() => setSize(0)}>

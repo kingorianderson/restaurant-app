@@ -4,7 +4,7 @@ import styles from "../styles/ChomaCard.module.css";
 const PizzaCard = () => {
   return (
     <div className={styles.container}>
-      <Image src="/img/nyamachomasukumawikiugaliandkachumbari.png" alt="" width="500" height="500" />
+      <Image src="/img/cake.png" alt="" width="500" height="500" />
       <h1 className={styles.title}>NYAMA CHOMA UGALI</h1>
       <span className={styles.price}>KSh 450</span>
       <p className={styles.desc}>

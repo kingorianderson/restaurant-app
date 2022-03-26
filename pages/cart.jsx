@@ -18,7 +18,7 @@ const Cart = () => {
             <td>
               <div className={styles.imgContainer}>
                 <Image
-                  src="/img/nyamachomasukumawikiugaliandkachumbari.png"
+                  src="/img/cake.png"
                   layout="fill"
                   objectFit="cover"
                   alt=""
@@ -47,7 +47,7 @@ const Cart = () => {
             <td>
               <div className={styles.imgContainer}>
                 <Image
-                  src="/img/nyamachomasukumawikiugaliandkachumbari.png"
+                  src="/img/cake.png"
                   layout="fill"
                   objectFit="cover"
                   alt=""
